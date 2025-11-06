@@ -1,24 +1,27 @@
-<<<<<<< HEAD
 # what-if-scenario-editor
-=======
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+A scenario planning and analysis application.
 
-This contains everything you need to run your app locally.
+## Prerequisites
+- Node.js
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZWL9FPMD2PQhmmsICvMMSe4vM_4zASlf
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Setup
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
->>>>>>> 05adf0b (Initial commit)
+```bash
+npm install
+```
+
+2. Set your Gemini API key in `.env.local`:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+## Project Structure
+- Application files and configuration for local development
+- Environment variables managed through `.env.local`
